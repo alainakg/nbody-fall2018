@@ -1,18 +1,30 @@
 This is analysis.txt
-Replace this line with your name
-Replace this line with your netid
+Alaina Greene
+akg38
 
 Copy/paste the output of your simulation when using planets.txt,
 running the simulation for 1,000,000 (one  million) seconds, and
 with a time-step/dt value of 25,000
 
-(replace with copy/paste)
+5
+2.50e+11
+-1.5360e+10 -1.4630e+11  3.0094e+04 -3.3369e+03  5.9740e+24    earth.gif
+ 4.7950e+10 -2.3395e+11  2.2622e+04  4.0804e+03  6.4190e+23     mars.gif
+ 2.3501e+13  2.0118e+13  3.0971e+04  2.6631e+04  3.3020e+23  mercury.gif
+-3.3086e+06  1.8807e+08 -1.1023e-01  9.8271e-02  1.9890e+30      sun.gif
+ 9.6086e+10  6.6047e+09  3.0243e+03  3.9595e+04  4.8690e+24    venus.gif
 
 Copy/paste the output of your simulation when using planets.txt,
-running the simulation for 2,000,000 (one  million) seconds, and
-with a time-step/dt value of 25,000
+running the simulation for 2,000,000 (two million) seconds, and
+with a time-step/dt value of 25,000 
 
-(replace with copy/paste)
+5
+2.50e+11
+ 1.3774e+11  5.8036e+10 -1.1560e+04  2.7494e+04  5.9740e+24    earth.gif
+ 2.2275e+11  4.7841e+10 -5.0730e+03  2.3568e+04  6.4190e+23     mars.gif
+-5.9865e+09  5.7090e+10 -4.8116e+04 -4.4176e+03  3.3020e+23  mercury.gif
+ 1.0223e+05  2.3000e+04  9.6223e-02  3.2991e-02  1.9890e+30      sun.gif
+ 8.5997e+10  6.5196e+10 -2.1191e+04  2.7971e+04  4.8690e+24    venus.gif
 
 Run the simulation for a billion seconds (10^9) and a time-step/dt
 of a million. You should see behavior inconsistent with what is
@@ -20,5 +32,9 @@ expected for celestial bodies. This is due to large values of dt
 when approximating forces. Write down below what you see during
 this simulation.
 
-(replace with observed behavior)
+The planets spin around the sun very quickly. I had to watch the 
+program run two or three times in order to describe what is going on, 
+because each planet looks to have multiple, closely- spaced versions 
+of itself on the screen at one time. One planet goes in non-circular 
+patterns before flying entirely off of the screen.
 
